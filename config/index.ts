@@ -3,14 +3,14 @@ export const APP_ID = `${process.env.NEXT_PUBLIC_APP_ID}`
 export const API_KEY = `${process.env.NEXT_PUBLIC_APP_KEY}`
 export const API_URL = `${process.env.NEXT_PUBLIC_API_URL}`
 export const APP_INFO: AppInfo = {
-  title: 'GenDojo.ai',
-  description: 'description',
-  copyright: 'copyright',
-  privacy_policy: 'privacy_policy',
+  title: 'AI app',
+  description: 'AI app description',
+  copyright: 'GenDojo.ai',
+  privacy_policy: '',
   default_language: 'en',
 }
 
-export const isShowPrompt = false
+export const isShowPrompt = true
 export const promptTemplate = 'I want you to act as a javascript console.'
 
 export const API_PREFIX = '/api'
