@@ -10,6 +10,8 @@ NEXT_PUBLIC_APP_ID=
 NEXT_PUBLIC_APP_KEY=
 # APP URL
 NEXT_PUBLIC_API_URL=
+# APP name
+NEXT_PUBLIC_AI_APP=
 ```
 
 Config more in `config/index.ts` file:   
